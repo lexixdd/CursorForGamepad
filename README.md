@@ -2,10 +2,15 @@ A Python script that transforms an Xbox gamepad into a full mouse replacement, a
 
 Note: All button names (A, B, LB, Select) refer to the Xbox controller layout!
 
-How It Works:
+## How It Works:
 The script uses pygame to read gamepad input and pyautogui to translate that input into mouse actions on your system. It runs in a continuous loop, checking the gamepad state 120 times per second for smooth, responsive control.
+## Installation!!!(NECESSARY):
+Open Powershell and Install pygame and pyautogui in the script folder:
+	cd "path/to/the/folder" (like C:\Users\Desktop\CursorForGamepad)
+	pip install pygame pyautogui
+	python cursor.py
 
-Features
+## Features:
 * Cursor Mode Toggle:
 	Select/View button — switches cursor control on and off
 	When disabled, the gamepad stops controlling the mouse, so you can use the controller normally without interference
